@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8" />
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    />
+
+    <title>
+        Madhukesh H P Portfolio
+    </title>
+
+    <link
+        rel="stylesheet"
+        href="./css/custom.css"
+    />
+
+</head>
+
+<body>
+
+    <!-- SCROLL PROGRESS -->
+
+    <div id="progress-bar"></div>
+
+    <!-- NAVBAR -->
+
+    <header class="navbar">
+
+        <div class="logo">
+            Madhukesh H P
+        </div>
+
+        <nav>
+
+            <ul class="nav-links">
+
+                <li>
+                    <a href="#home" class="nav-link">
+                        Home
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#about" class="nav-link">
+                        Education
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#skills" class="nav-link">
+                        Skills
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#projects" class="nav-link">
+                        Projects
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#contact" class="nav-link">
+                        Contact
+                    </a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+        <!-- THEME BUTTON -->
+
+        <button
+            id="theme-toggle"
+            class="theme-btn"
+        >
+            🌙 Night Mode
+        </button>
+
+    </header>
+
+    <!-- HERO SECTION -->
+
+    <section
+        id="home"
+        class="hero section"
+    >
+
+        <div class="floating-shape shape1"></div>
+        <div class="floating-shape shape2"></div>
+        <div class="floating-shape shape3"></div>
+
+        <div class="hero-content">
+
+            <p class="hero-tag">
+                👋 Welcome To My Portfolio
+            </p>
+
+            <h1>
+
+                Hi, I'm
+
+                <span class="gradient-text name-nowrap">
+                    Madhukesh H P
+                </span>
+
+            </h1>
+
+            <h2 id="typing-text">
+                MERN Stack Developer
+            </h2>
+
+            <p class="hero-description">
+
+                Passionate MERN Stack Developer and
+                BE Graduate in Data Science & Engineering
+                focused on building responsive,
+                interactive, and visually modern web applications.
+
+            </p>
+
+            <div class="hero-buttons">
+
+                <a
+                    href="#projects"
+                    class="hero-btn primary-hero-btn"
+                >
+                    View Projects
+                </a>
+
+                <a
+                    href="#contact"
+                    class="hero-btn secondary-hero-btn"
+                >
+                    Contact Me
+                </a>
+
+            </div>
+
+            <div class="hero-stats">
+
+                <div class="hero-stat-card">
+
+                    <h3>10+</h3>
+
+                    <p>Skills</p>
+
+                </div>
+
+                <div class="hero-stat-card">
+
+                    <h3>3+</h3>
+
+                    <p>Projects</p>
+
+                </div>
+
+                <div class="hero-stat-card">
+
+                    <h3>7.5</h3>
+
+                    <p>CGPA</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- EDUCATION SECTION -->
+
+    <section
+        id="about"
+        class="section"
+    >
+
+        <p class="section-subtitle">
+            // 02. EDUCATION
+        </p>
+
+        <h2 class="education-heading">
+            Learning Journey
+        </h2>
+
+        <div class="education-grid">
+
+            <!-- DEGREE -->
+
+            <div class="education-card">
+
+                <div class="education-icon">
+                    🎓
+                </div>
+
+                <div>
+
+                    <p class="education-year">
+                        2022 - 2026
+                    </p>
+
+                    <h3>
+                        BE in Data Science & Engineering
+                    </h3>
+
+                    <p>
+                        Saividya Institute of Technology, Rajanukunte
+                    </p>
+
+                    <span>
+                        CGPA 7.5 / 10.0
+                    </span>
+
+                </div>
+
+            </div>
+
+            <!-- PU -->
+
+            <div class="education-card">
+
+                <div class="education-icon">
+                    🛠️
+                </div>
+
+                <div>
+
+                    <p class="education-year">
+                        2020 - 2022
+                    </p>
+
+                    <h3>
+                        Pre-University (PU)
+                    </h3>
+
+                    <p>
+                        Yashaswi PU College, Bangalore
+                    </p>
+
+                    <span>
+                        CGPA 9.1 / 10.0
+                    </span>
+
+                </div>
+
+            </div>
+
+            <!-- SCHOOL -->
+
+            <div class="education-card">
+
+                <div class="education-icon">
+                    ⚡
+                </div>
+
+                <div>
+
+                    <p class="education-year">
+                        2011 - 2020
+                    </p>
+
+                    <h3>
+                        Schooling
+                    </h3>
+
+                    <p>
+                        Vidya Prakash High School, Bangalore
+                    </p>
+
+                    <span>
+                        CGPA 9.0 / 10.0
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- SKILLS SECTION -->
+
+    <section
+        id="skills"
+        class="section"
+    >
+
+        <h2 class="section-title">
+            Skills
+        </h2>
+
+        <div class="skills-filter-buttons">
+
+            <button
+                class="skill-filter active-skill"
+                data-category="all"
+            >
+                All
+            </button>
+
+            <button
+                class="skill-filter"
+                data-category="frontend"
+            >
+                Frontend
+            </button>
+
+            <button
+                class="skill-filter"
+                data-category="backend"
+            >
+                Backend
+            </button>
+
+            <button
+                class="skill-filter"
+                data-category="tools"
+            >
+                Tools
+            </button>
+
+        </div>
+
+        <div
+            id="skills-container"
+            class="skills-grid"
+        ></div>
+
+    </section>
+
+    <!-- PROJECTS SECTION -->
+
+    <section
+        id="projects"
+        class="section"
+    >
+
+        <h2 class="section-title">
+            Projects
+        </h2>
+
+        <div class="project-controls">
+
+            <input
+                type="text"
+                id="search-input"
+                placeholder="Search Projects..."
+            />
+
+            <select id="sort-select">
+
+                <option value="default">
+                    Sort By
+                </option>
+
+                <option value="az">
+                    A-Z
+                </option>
+
+                <option value="za">
+                    Z-A
+                </option>
+
+            </select>
+
+        </div>
+
+        <div class="filter-buttons">
+
+            <button
+                class="filter-btn active-filter"
+                data-category="all"
+            >
+                All
+            </button>
+
+            <button
+                class="filter-btn"
+                data-category="frontend"
+            >
+                Frontend
+            </button>
+
+            <button
+                class="filter-btn"
+                data-category="backend"
+            >
+                Backend
+            </button>
+
+        </div>
+
+        <p id="project-count"></p>
+
+        <div
+            id="projects-container"
+            class="projects-grid"
+        ></div>
+
+    </section>
+
+    <!-- CONTACT SECTION -->
+
+    <section
+        id="contact"
+        class="section"
+    >
+
+        <h2 class="section-title">
+            Let's Connect
+        </h2>
+
+        <div class="connect-grid">
+
+            <!-- GITHUB -->
+
+            <a
+                href="https://github.com/Madhukesh-03"
+                target="_blank"
+                class="connect-card github-card"
+            >
+
+                <h3>GitHub</h3>
+
+                <p>
+                    Madhukesh-03
+                </p>
+
+            </a>
+
+            <!-- EMAIL -->
+
+            <a
+                href="mailto:madhukeshprakasha400@gmail.com"
+                class="connect-card email-card"
+            >
+
+                <h3>Email</h3>
+
+                <p>
+                    madhukeshprakasha400@gmail.com
+                </p>
+
+            </a>
+
+            <!-- WHATSAPP -->
+
+            <a
+                href="https://wa.me/916362394367"
+                target="_blank"
+                class="connect-card whatsapp-card"
+            >
+
+                <h3>WhatsApp</h3>
+
+                <p>
+                    +91 6362394367
+                </p>
+
+            </a>
+
+            <!-- INSTAGRAM -->
+
+            <a
+                href="https://instagram.com/madhukesh03"
+                target="_blank"
+                class="connect-card instagram-card"
+            >
+
+                <h3>Instagram</h3>
+
+                <p>
+                    @madhukesh03
+                </p>
+
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- BACK TO TOP -->
+
+    <button id="back-to-top">
+        ↑
+    </button>
+
+    <!-- MAIN JS -->
+
+    <script
+        type="module"
+        src="./js/main.js"
+    ></script>
+
+</body>
+
+</html>
